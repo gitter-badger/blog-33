@@ -3,7 +3,7 @@ subtitle: null
 description: null
 keywords: null
 author: AkaraChen
-language: zh-cn
+language: zh-CN
 timezone: null
 url: http://yoursite.com
 root: /
@@ -15,7 +15,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: 'zh-cn'
+i18n_dir: :lang
 skip_render: null
 new_post_name: ':title.md'
 default_layout: post
