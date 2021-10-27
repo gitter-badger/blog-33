@@ -1,5 +1,5 @@
 ---
-title: 宝塔安装Misskey
+title: 宝塔安装 Misskey
 date: 2021-06-04 15:04:39
 tags:
 - 宝塔

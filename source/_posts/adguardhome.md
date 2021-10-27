@@ -1,5 +1,5 @@
 ---
-title: 安装AdGuardHome屏蔽广告
+title: 安装 AdGuardHome 屏蔽广告
 date: 2021-06-04 06:35:36
 tags:
 - AdGuardHome
@@ -69,21 +69,7 @@ https://doh.pub/dns-query
 然后打开过滤器->DNS封锁清单，挨个添加阻止列表，名字随便填，链接要一个一个添加
 
 ```
-HalfLife
-
-https://gitee.com/halflife/list/raw/master/ad.txt
-
-anti-AD
-
-https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-easylist.txt
-
-ChinaList+EasyList
-
-http://sub.adtchrome.com/adt-chinalist-easylist.txt 
-
-EasyList China
-
-https://easylist-downloads.adblockplus.org/easylistchina.txt 
+https://
 ```
 
 然后差不多就能用了。

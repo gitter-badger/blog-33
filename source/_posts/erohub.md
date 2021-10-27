@@ -67,68 +67,12 @@ Erohub 在建站一年后，文章数量就突破了 900 大关，因此我之�
 
 JAMStack 应用的内容应该是部署到 CDN 上的，而用 PHP 来实现这些虽然不困难，但是无疑会增加之后更换 Typecho 主机的成本，因此我选择了一个看起来很愚蠢的方案：用 Github Action 执行我写的 Python 爬虫，来爬取 Typecho 返回的数据，并部署到 CDN 上。
 
-差不多就像这样：
-
-```
-name: Generate
-
-on:
-  schedule:
-    - cron: '0 23 * * *' 
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
-    - name: Install dependencies
-      run: |
-        pip install requests
-    - name: Generate JSON
-      run: |
-        python xxxx.py
-    - name: commit
-      run: |
-        git config --global user.email xxxxx@outlook.com
-        git config --global user.name xxxxx
-        git add .
-        git commit -m "update" -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-```
-
 #### 前端部分
 
 我选择了 Vue.js + [Tabler](https://tabler.io/) + Axios 来构建前端界面，通过 Axios 获取部署到 CDN 上的后端数据，用 Vue 渲染 DOM ，用 Tabler 美化布局，使用 Vue-router 管理路由，有Vue-cli 这种成熟的工具链来辅助（手把手教我）写代码，一切看起来都如行云流水般简单。
 
-<div class="justified-gallery">
-
-![](https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic/20210916183458.png)
-
-![](https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic/20210916183523.png)
-
-![](https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic/20210916183556.png)
-
-![](https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic/20210916183617.png)
-
-</div>
-
 做完这一切之后，我在 Github 创建了一个私有仓库，并使用 [Vercel](https://vercel.com/)部署到全球 CDN 上。
 
-<div class="justified-gallery">
-
-![](https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic/20210916183822.png)
-
 ![](https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic/20210916183950.png)
-
-</div>
 
 至此，一个 JAMStack 架构的站点，诞生了。
