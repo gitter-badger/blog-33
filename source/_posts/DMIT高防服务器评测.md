@@ -12,7 +12,7 @@ DMIT，主营香港、洛杉矶大带宽VPS的国人商家，机器性能强悍�
 <!--more-->
 
 ## 相关索引 ##
-官网地址：https://www.dmit.io
+官网地址：https://www.dmit.io/
 使用条款：https://www.dmit.io/pages/tos
 购买链接：https://www.dmit.io/cart.php
 
