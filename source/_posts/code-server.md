@@ -31,7 +31,10 @@ Ubuntu 只是 **推荐** 配置，具体用啥还得看你自由发挥,Debian肯
 下面用到的命令来自 [AnLinux](https://f-droid.org/zh_Hans/packages/exa.lnx.a/)
 
 ```
-pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh 
+pkg install wget openssl-tool proot -y 
+hash -r 
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh 
+bash ubuntu.sh 
 ```
 
 直接复制到终端就能运行，运行完之后在当前窗口运行 ./start-ubuntu.sh 就能跑起来 Ubuntu
