@@ -5,7 +5,7 @@ keywords: null
 author: AkaraChen
 language: zh-CN
 timezone: null
-url: http://yoursite.com
+url: https://blog.akr.moe
 root: /
 permalink: ':title.html'
 permalink_defaults: null
@@ -20,7 +20,7 @@ skip_render: null
 new_post_name: ':title.md'
 default_layout: post
 titlecase: false
-external_link: true
+external_link: false
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -29,7 +29,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: null
 index_generator:
   path: ''
