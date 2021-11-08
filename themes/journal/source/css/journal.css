@@ -705,3 +705,12 @@ a {
         font-size: 13px;
         font-family: "Montserrat", "Roboto", "Source Sans Pro", "Helvetica", "Arial", "Lora", "source-han-serif-tc", serif;
         padding: 40px 20px 40px 20px; } }
+
+
+.gutter {
+  display: none;
+}
+
+pre {
+  white-space: pre-wrap;
+}
