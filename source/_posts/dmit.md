@@ -5,6 +5,7 @@ tags:
 - vps
 - 评测
 categories: 商家评测
+cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202109.png
 ---
 
 DMIT，主营香港、洛杉矶大带宽VPS的国人商家，机器性能强悍，带宽充足，适合稳定建站，支持PayPal、支付宝、信用卡支付，不过价格也是非常美丽。

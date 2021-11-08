@@ -6,6 +6,7 @@ tags:
 - 评测
 - 半月湾
 categories: 商家评测
+cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202210.png
 ---
 
 半月灣，在 2020 年由美籍华人于美国旧金山创办，提供 IPLC 等转发以及 GIA 线路的 VPS/NAT 服务。半月湾致力保障用户的隐私以及匿名性，所有服务均无需实名认证。

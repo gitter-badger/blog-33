@@ -2,6 +2,7 @@
 title: 如何配置一个舒服的终端环境
 date: 2021-11-08 18:57:12
 tags:
+cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108201352.png
 ---
 
 ## 前言
@@ -26,11 +27,11 @@ tags:
 
 众所周知，各大 Linux 发行版都自带一个包管理器，能快速方便的安装软件，那么 Windows 上有吗？当然是有，除了 Windows 自带的图形化包管理器 Microsoft Store （啊，可能算是吧）外，还有 `scoop` 、 `chocolaty` 这种第三方包管理器，安装起来也是非常方便，用起来也跟 yum dnf apt 大差不离。
 
-```
+``` Powershell
 // 这是 scoop
 iwr -useb get.scoop.sh | iex
 ```
-```
+``` Powershell
 // 这是 chocolaty
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
@@ -41,7 +42,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 有 scoop 的话可以很快速的解决
 
-```
+``` Powershell
 scoop install neovim
 ```
 
@@ -49,19 +50,19 @@ scoop install neovim
 
 安装好了包管理器和 neovim ，接下来就可以安装 oh-my-posh 来愉快的给 powershell 换主题了。
 
-```
+``` Powershell
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
 ```
 
 这样子就安装好了 oh-my-posh ，接下来是启用，并选中一个主题，我因为有喜欢的主题，就不过多阐述了，直接贴我的做法。
 
-```
+``` Powershell
 neovim $PROFILE
 ```
 
 然后在里头输入
 
-```
+``` Powershell
 oh-my-posh --init --shell pwsh --config C:\Users\Akara\scoop\apps\oh-my-posh\6.0.0\themes\material.omp.json | Invoke-Expression
 ```
 
@@ -74,14 +75,14 @@ oh-my-posh --init --shell pwsh --config C:\Users\Akara\scoop\apps\oh-my-posh\6.0
 ### 给 WSL 也美化一下
 
 首先你需要开 WSL2
-```
+``` Powershell
 dism.exe /online /enable-feature /featurename:VirutalMachinePlatform /all /norestart
 wsl --set-default-version 2
 ```
 
 然后进入 WSL 的 bash 下
 
-```
+``` bash
 sudo apt install fish -y
 which fish
 chsh -s 输入你刚刚看到的 fish 路径

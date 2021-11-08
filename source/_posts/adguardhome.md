@@ -5,6 +5,7 @@ tags:
 - AdGuardHome
 - 广告
 categories: 简单记录
+cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108201927.png
 ---
 
 AdGuardHome可以为您和您的设备提供隐私保护中心，是一个开源、免费、强大的去广告/跟踪器DNS服务器。

@@ -2,6 +2,7 @@
 title: 在安卓板子上安装一个现代 IDE
 date: 2021-10-30 12:34:04
 tags:
+cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202000.png
 ---
 
 ## 前言

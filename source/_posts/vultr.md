@@ -6,6 +6,7 @@ tags:
 - VPS
 - 评测
 categories: 商家评测
+cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202311.png
 ---
 
 Vultr，美国知名主机商，按小时付费，有日本东京、新加坡、洛杉矶、硅谷等数据中心，国内线路不太行。CPU强悍，均在3GHz+；硬盘均为NVMe SSD，硬盘io非常好看。支持Paypal、支付宝付款。

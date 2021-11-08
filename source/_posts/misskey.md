@@ -5,6 +5,7 @@ tags:
 - 宝塔
 - Misskey
 categories: 简单记录
+cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202234.png
 ---
 
 本来看Misskey的安装文档，感觉没啥难的，但是我感觉我把能踩的坑全都踩了个遍，就导致我安了俩小时，中间服务器因为网络问题还断掉过一次SSH，就挺崩溃的，所以必须记录一下了。
