@@ -1,6 +1,6 @@
 ---
 title: 记录一下 node-gyp 报错的问题
-tags:
+date: 2022-02-16 23:37:38
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216225817.png
 ---
 

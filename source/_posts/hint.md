@@ -1,5 +1,6 @@
 ---
 title: 优化 Windows 字体渲染
+date: 2022-01-21 22:37:38
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216223516.png
 ---
 

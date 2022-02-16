@@ -1,6 +1,6 @@
 ---
 title: CTF day 02
-date: 2022-02-16 22:51:46
+date: 2022-01-20 22:51:46
 tags:
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216230043.png
 ---
