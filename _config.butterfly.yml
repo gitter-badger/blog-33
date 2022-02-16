@@ -79,14 +79,14 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202359.png
+  img: https://q1.qlogo.cn/g?b=qq&nk=1028114411&s=640
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108200129.png
+index_img: https://cdn.jsdelivr.net/gh/akrongl/bing@latest/20161227.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108201606.png
@@ -519,8 +519,8 @@ canvas_ribbon:
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: true
-  mobile: false
+  click_to_change: false
+  mobile: true
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
