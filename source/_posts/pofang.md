@@ -29,7 +29,7 @@ tskill 应用 PID
 
 然后我多加了一个关键词，`实际并没有`，总算找到了这篇文章：
 
-[IDEA 端口占用，启动失败，提示Web server failed to start. Port 8080 was already in use.](https://www.cnblogs.com/mayhot/p/15156426.html)
+[IDEA 端口占用，启动失败，提示 Web server failed to start. Port 8080 was already in use.](https://www.cnblogs.com/mayhot/p/15156426.html)
 
 > 3.更改保留端口范围
 > 
@@ -47,9 +47,9 @@ netsh interface ipv4 show excludedportrange protocol=tcp
 
 Google 查询许久，找到这篇文章：
 
-[关于Windows端口没被占用提示An attempt was made to access a socket in a way forbidden by its access permissions_tian2342的专栏-CSDN博客](https://blog.csdn.net/tian2342/article/details/108934646)
+[关于 Windows 端口没被占用提示 An attempt was made to access a socket in a way forbidden by its access permissions_tian2342 的专栏-CSDN 博客](https://blog.csdn.net/tian2342/article/details/108934646)
 
-> 最后发现可能是因为开启了Hyper-V，导致ipv4的动态起始端口变成了1024。
+> 最后发现可能是因为开启了 Hyper-V，导致 ipv4 的动态起始端口变成了 1024。
 
 所以为什么我之前开启了 Hyper-V 呢？因为我之前安装了 Kali！是的，还真的是因为 kali
 

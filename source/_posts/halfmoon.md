@@ -16,38 +16,38 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202210.png
 
 ## 相关索引 ##
 官网地址：[https://hmbcloud.com/][1]
-商家ToS：[https://hmbcloud.com/index.php?m=TermsOfService][2]
+商家 ToS：[https://hmbcloud.com/index.php?m=TermsOfService][2]
 
 ## 套餐详情 ##
 
- - 1x CPU核心
+ - 1x CPU 核心
  - 2G 内存
- - 10G SAS硬盘
+ - 10G SAS 硬盘
  - 1TB 流量
  - 500M 带宽
- - 1x 独立IPV4
- - KVM虚拟化
+ - 1x 独立 IPV4
+ - KVM 虚拟化
 
 ## 综合测试 ##
 
 ### 系统信息 ###
 
- - CPU型号：Intel(R) Xeon(R) CPU E5-2680 
- - CPU数量：1 vCPU
+ - CPU 型号：Intel(R) Xeon(R) CPU E5-2680 
+ - CPU 数量：1 vCPU
  - 虚拟化类型：KVM
  - 磁盘使用率：2.12 GB / 10.26 GB
  - 引导设备：/dev/vda1
 
 ### 网络信息 ###
 
- - IPV4 - ASN信息:ANCHGLOBAL-AS-AP - Anchnet Asia Limited, HK
+ - IPV4 - ASN 信息:ANCHGLOBAL-AS-AP - Anchnet Asia Limited, HK
  - IPV4 - 归属地:United States California Los Angeles
 
 ## 流媒体解锁 ##
 
 解锁`HBO Now`、`Princess Connect Re:Dive Japan`
 
-### CPU性能测试 (标准模式, 1-Pass @ 5sec) ###
+### CPU 性能测试 (标准模式, 1-Pass @ 5sec) ###
 
 单线程测试: 661 分
 
@@ -56,7 +56,7 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202210.png
  - 单线程读：11487.96 MB/s
  - 单线程写：9501.17 MB/s
 
-### 磁盘性能测试 (4K块/1M块, Direct写入) ###
+### 磁盘性能测试 (4K 块/1M 块, Direct 写入) ###
 
 | 测试项目   | 写入速度                  | 读取速度                  |
 | -------------- | ----------------------------- | ----------------------------- |
@@ -65,7 +65,7 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202210.png
 
 ### Speedtest.net 网速测试 ###
 
-| 节点名称   | 上传速度 | 下载速度 | Ping延迟 |
+| 节点名称   | 上传速度 | 下载速度 | Ping 延迟 |
 | -------------- | ---------- | ---------- | --------- |
 | 距离最近测速点 | 11.72 MB/s | 11.40 MB/s | 6.04 ms   |
 | 上海电信   | 6.37 MB/s  | 12.08 MB/s | 128.93 ms |

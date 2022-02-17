@@ -4,7 +4,7 @@ date: 2022-02-16 23:37:38
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216225817.png
 ---
 
-## node-gyp 是个啥？
+## node-gyp 是个啥
 
 gyp 是为 Chromium 项目创建的项目生成工具，可以从平台无关的配置生成平台相关的项目文件。这样一来我们就不需要花额外的时间处理每个平台不同的项目配置以及项目之间的依赖关系。
 

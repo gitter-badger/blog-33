@@ -7,7 +7,7 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108201352.png
 
 ## 前言
 
-前几天趁着双11，购买了 ROG 幻 16，头一次用高端笔记本，我没下游戏测试（就算现在也没有），而是马上开始写起了代码，然而当我打开 Windows terminal 的那一刻，就看到了这么个界面：
+前几天趁着双 11，购买了 ROG 幻 16，头一次用高端笔记本，我没下游戏测试（就算现在也没有），而是马上开始写起了代码，然而当我打开 Windows terminal 的那一刻，就看到了这么个界面：
 
 ![丑陋的 Powershell 啊](https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main//20211108190420.png)
 

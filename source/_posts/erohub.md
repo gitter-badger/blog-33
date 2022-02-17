@@ -34,7 +34,7 @@ JAMStack 的 web 应用通过  JavaScript 向后端 API 发送 AJAX 请求，而
 
 网站内容的模板化标记在部署时预先构建。
 
-所以 JAMStack 就是：**使用JavaScript，APIs和Markup三种技术来构建Web应用**。
+所以 JAMStack 就是：**使用 JavaScript，APIs 和 Markup 三种技术来构建 Web 应用**。
 
 ## 优势 ##
 
@@ -44,7 +44,7 @@ Jamstack 将页面作为预先生成的文件提供允许只读托管进一步�
 
 #### 高性能
 
-页面加载速度会影响用户体验和转换。Jamstack 站点的所有页面都已在靠近用户的CDN上因此无需引入昂贵或复杂的基础架构即可实现非常高的性能。
+页面加载速度会影响用户体验和转换。Jamstack 站点的所有页面都已在靠近用户的 CDN 上因此无需引入昂贵或复杂的基础架构即可实现非常高的性能。
 
 #### 维护成本低 ####
 
@@ -70,7 +70,7 @@ JAMStack 应用的内容应该是部署到 CDN 上的，而用 PHP 来实现这�
 
 #### 前端部分
 
-我选择了 Vue.js + [Tabler](https://tabler.io/) + Axios 来构建前端界面，通过 Axios 获取部署到 CDN 上的后端数据，用 Vue 渲染 DOM ，用 Tabler 美化布局，使用 Vue-router 管理路由，有Vue-cli 这种成熟的工具链来辅助（手把手教我）写代码，一切看起来都如行云流水般简单。
+我选择了 Vue.js + [Tabler](https://tabler.io/) + Axios 来构建前端界面，通过 Axios 获取部署到 CDN 上的后端数据，用 Vue 渲染 DOM ，用 Tabler 美化布局，使用 Vue-router 管理路由，有 Vue-cli 这种成熟的工具链来辅助（手把手教我）写代码，一切看起来都如行云流水般简单。
 
 做完这一切之后，我在 Github 创建了一个私有仓库，并使用 [Vercel](https://vercel.com/)部署到全球 CDN 上。
 

@@ -29,7 +29,7 @@ sudo apt install caddy
 choco install caddy
 ```
 
-## Hello,World!
+## Hello,World
 
 ```bash
 caddy run
@@ -52,7 +52,7 @@ touch Caddyfile && vim Caddyfile
 
 然后写下
 
-```
+```plain
 :2015
 
 respond "Hello, world!"
@@ -88,4 +88,3 @@ caddy reload
 
 2. 修改配置文件(是的，我到现在也没找到更改配置文件的方法，也许是我看的不仔细吧)
 
-3. 

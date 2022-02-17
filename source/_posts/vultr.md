@@ -9,14 +9,14 @@ categories: 商家评测
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202311.png
 ---
 
-Vultr，美国知名主机商，按小时付费，有日本东京、新加坡、洛杉矶、硅谷等数据中心，国内线路不太行。CPU强悍，均在3GHz+；硬盘均为NVMe SSD，硬盘io非常好看。支持Paypal、支付宝付款。
+Vultr，美国知名主机商，按小时付费，有日本东京、新加坡、洛杉矶、硅谷等数据中心，国内线路不太行。CPU 强悍，均在 3GHz+；硬盘均为 NVMe SSD，硬盘 io 非常好看。支持 Paypal、支付宝付款。
 <!--more-->
 
-本文章发布时（2021-3-28），新用户注册并充值$10（≈￥65）可获得$100刀余额，赠送余额限期一个月。这似乎是个长期活动
+本文章发布时（2021-3-28），新用户注册并充值$10（≈￥65）可获得$100 刀余额，赠送余额限期一个月。这似乎是个长期活动
 
 ## 相关索引 ##
-官网地址（带AFF）:[https://www.vultr.com/?ref=8833279][1]
-官网地址（无AFF）:[https://www.vultr.com][2]
+官网地址（带 AFF）:[https://www.vultr.com/?ref=8833279][1]
+官网地址（无 AFF）:[https://www.vultr.com][2]
 测速地址（洛杉矶）：[http://lax-ca-us-ping.vultr.com/][3]
 使用条款：[https://www.vultr.com/legal/tos/][4]
 
@@ -24,35 +24,35 @@ Vultr，美国知名主机商，按小时付费，有日本东京、新加坡、
 
 ## 套餐详情 ##
 
- - 4x CPU核心
+ - 4x CPU 核心
  - 16G 内存
- - 400G NVME SSD硬盘
+ - 400G NVME SSD 硬盘
  - 5000 Gb 流量
- - 1x 独立ipv4
+ - 1x 独立 ipv4
  - 1x ipv6
  - KVM 虚拟化
 
 ## 测试详情 ##
 
 ### 系统信息 ###
- - CPU型号：Intel Core Processor (Skylake, IBRS)  3.70 GHz
- - CPU数量：4 vCPU
- - CPU缓存大小：16384 KB
+ - CPU 型号：Intel Core Processor (Skylake, IBRS)  3.70 GHz
+ - CPU 数量：4 vCPU
+ - CPU 缓存大小：16384 KB
  - 内存用量：746.42 MB / 15.66 GB
- - 无Swap内存
+ - 无 Swap 内存
  - 硬盘用量：7.67 GB / 377.97 GB
  - 引导设备：/dev/vda1
 
 ### 网络信息 ###
- - IPV4 - ASN信息：20473 (AS-CHOOPA - Choopa, LLC, US)
+ - IPV4 - ASN 信息：20473 (AS-CHOOPA - Choopa, LLC, US)
  - IPV4 - 归属地：United States California Los Angeles
- - IPV6 - ASN信息：20473 (AS-CHOOPA - Choopa, LLC, US)
+ - IPV6 - ASN 信息：20473 (AS-CHOOPA - Choopa, LLC, US)
  - IPV6 - 归属地：United States United States 
 
 ### 流媒体解锁 ###
 ***全 都 不 支 持*** 
 
-### CPU性能测试 (标准模式, 3-Pass @ 30sec) ###
+### CPU 性能测试 (标准模式, 3-Pass @ 30sec) ###
  - 单线程测试：1307 Scores
  - 多线程测试：5182 Scores
 
@@ -60,7 +60,7 @@ Vultr，美国知名主机商，按小时付费，有日本东京、新加坡、
  - 单线程读：23859.57 MB/s
  - 单线程写：17641.11 MB/s
 
-### 磁盘性能测试 (4K块/1M块, Direct写入) ###
+### 磁盘性能测试 (4K 块/1M 块, Direct 写入) ###
 
 | 测试项目       | 写速度                         | 读速度                        |
 |----------------|--------------------------------|-------------------------------|

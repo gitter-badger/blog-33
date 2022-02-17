@@ -27,11 +27,11 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202000.png
 
 ### 安装 Ubuntu 虚拟机
 
-Ubuntu 只是 **推荐** 配置，具体用啥还得看你自由发挥,Debian肯定也是行的，CentOS 估计就不用看这个教程了。
+Ubuntu 只是 **推荐** 配置，具体用啥还得看你自由发挥,Debian 肯定也是行的，CentOS 估计就不用看这个教程了。
 
 下面用到的命令来自 [AnLinux](https://f-droid.org/zh_Hans/packages/exa.lnx.a/)
 
-```
+```plain
 pkg install wget openssl-tool proot -y 
 hash -r 
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh 
@@ -42,15 +42,15 @@ bash ubuntu.sh
 
 建议来一次系统更新助兴：
 
-```
+```plain
 apt update && apt upgrade -y
 ```
 
 ### 安装 Node.js 14.x
 
-官方推荐使用这个版本，事实上你也必须使用这个版本，否则安装的时候会直接报 Node 版本不匹配，而 Termux 仓库刚好删除了 `nodejs` 和 `nodejs-lts` 两个包的历史版本，直接在 Termux 添加 Node 官方源脑瘫问题也很多的样子（或许只是因为我懒得挨个解决？），所以你才必须安装虚拟机，然后这虚拟机问题又很多，于是你又必须通过 npm安装
+官方推荐使用这个版本，事实上你也必须使用这个版本，否则安装的时候会直接报 Node 版本不匹配，而 Termux 仓库刚好删除了 `nodejs` 和 `nodejs-lts` 两个包的历史版本，直接在 Termux 添加 Node 官方源脑瘫问题也很多的样子（或许只是因为我懒得挨个解决？），所以你才必须安装虚拟机，然后这虚拟机问题又很多，于是你又必须通过 npm 安装
 
-```
+```plain
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
@@ -59,14 +59,14 @@ sudo apt-get install -y nodejs
 
 由于未知的原因，我在 Ubuntu 下始终无法用 npm 安装 yarn ，所以我来了波虚空操作，安装 cnpm ，然后用 cnpm 安装 yarn ，居然成功了
 
-```
+```plain
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install yarn -g
 ```
 
 ### 安装剩下的依赖，然后运行吧
 
-```
+```plain
 sudo apt-get install -y \
   build-essential \
   pkg-config \
@@ -76,7 +76,7 @@ npm config set python python3
 
 依赖安装完就要进行这玄学的安装了
 
-```
+```plain
 yarn global add code-server
 code-server
 ```

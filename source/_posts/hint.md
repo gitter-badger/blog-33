@@ -6,7 +6,7 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216223516.png
 
 尽管 Windows 在高分辨率屏幕上的字体渲染可圈可点，但是也不是所有电脑用户都能用上 4k 屏幕，我之前摸鱼用的笔记本是 Redmi pro 15，有一块 3.2k 的屏幕，我用久了，也没感觉 3.2k 屏幕有啥好，直到有一天，我购入了华硕天选 2，我的眼睛一瞬间失明了，于是我光速退货，换了台 ROG 幻 16，3.2k -> 2.5k 屏幕倒是没太难受，但是总感觉字体缺点味，于是我就开始了优化 Windows 字体渲染的路。
 
-## 为什么 Windows 渲染拉跨？
+## 为什么 Windows 渲染拉跨
 
 照理说，Windows 是市占率那么高的系统，Microsoft 那么有钱，没理由做不好区区一个字体渲染，被 Mac 疯狂吊锤，确实是有原因的。
 
@@ -34,7 +34,7 @@ Mac OS 的字体渲染机制跟 Windows 不太一样，Windows 讲究一个清�
 
 #### 安装方法
 
-1. 下载[更纱黑体](https://github.com/be5invis/Sarasa-Gothic/releases) 选择sarasa-gothic-ttf-版本号.7z 这种，安装里头的 Sarasa UI SC regular 或者 semibold ，这个看个人喜好
+1. 下载[更纱黑体](https://github.com/be5invis/Sarasa-Gothic/releases) 选择 sarasa-gothic-ttf-版本号.7z 这种，安装里头的 Sarasa UI SC regular 或者 semibold ，这个看个人喜好
 2. 安装日本友人开发的 No!! MeiryoUI （东亚人民水深火热了属于是），替换字体，我的方案如下：![](https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211113192438.png)
 
 ### 替换掉微软雅黑
