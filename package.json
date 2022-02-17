@@ -26,6 +26,7 @@
   },
   "scripts": {
     "dev": "hexo server",
-    "build": "lintmd .\source\_posts\*.md --fix && hexo generate"
+    "build": "hexo generate",
+    "lint": "lintmd .\\source\\_posts\\*.md --fix && "
   }
 }
