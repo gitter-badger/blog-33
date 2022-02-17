@@ -27,4 +27,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: lintmd ./source/_posts/*.md --fix
+    - run: lint-md ./source/_posts/*.md --fix
