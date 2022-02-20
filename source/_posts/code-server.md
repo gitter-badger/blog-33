@@ -2,6 +2,9 @@
 title: 在安卓板子上安装一个现代 IDE
 date: 2021-10-30 12:34:04
 tags:
+- Android
+- IDE
+- 华为平板
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202000.png
 ---
 

@@ -2,6 +2,9 @@
 title: 记一次破防瞬间
 date: 2022-01-28 22:37:38
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216222509.png
+tag:
+- Java
+category: 简单记录
 ---
 
 ## 起因

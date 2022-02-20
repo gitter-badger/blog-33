@@ -1,7 +1,9 @@
 ---
 title: 使用 JAMStack 构建 Erohub
 date: 2021-09-16 16:54:11
-tags: erohub
+tags: 
+- erohub
+category: 简单记录
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202153.png
 ---
 

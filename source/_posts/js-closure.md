@@ -2,6 +2,10 @@
 title: JS 闭包特性
 date: 2022-02-16 22:52:44
 tags:
+- js
+- JavaScript
+- 闭包
+category: 学习笔记
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216225920.png
 ---
 

@@ -46,9 +46,4 @@ theme: butterfly
 deploy:
   type: null
 
-prism_plugin:
-  mode: 'preprocess' # realtime/preprocess
-  theme: 'default'
-  line_number: false # default false
-
 archives: true

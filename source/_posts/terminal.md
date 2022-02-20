@@ -2,6 +2,12 @@
 title: 如何配置一个舒服的终端环境
 date: 2021-11-08 18:57:12
 tags:
+- fish
+- powershell
+- ohmyposh
+- neovim
+- vim
+category: 简单记录
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108201352.png
 ---
 

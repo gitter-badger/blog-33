@@ -2,6 +2,8 @@
 title: CTF day 01
 date: 2022-01-19 22:50:22
 tags:
+- ctf
+category: 学习笔记
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216230304.png
 ---
 

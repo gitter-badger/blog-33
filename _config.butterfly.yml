@@ -240,7 +240,7 @@ addThis:
 # Share.js
 # https://github.com/overtrue/share.js
 sharejs:
-  enable: true
+  enable: false
   sites: facebook,twitter,wechat,weibo,qq
 
 # AddToAny
@@ -540,7 +540,7 @@ canvas_nest:
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: true
+  enable: false
   colorful: true # open particle animation (冒光特效)
   shake: true #  open shake (抖動特效)
   mobile: false
@@ -553,7 +553,7 @@ fireworks:
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: true
+  enable: false
   mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
@@ -583,14 +583,14 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: Noto Sans SC
+  font-family: Fira Sans,Noto Sans SC,微软雅黑
   code-font-family:
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
   font_link:
-  font-family:
+  font-family: 
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -600,7 +600,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: true
+  enable: false
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
@@ -626,7 +626,7 @@ preloader: false
 # --------------------------------------
 
 aside:
-  enable: true
+  enable: false
   hide: false
   button: true
   mobile: false # display on mobile
@@ -829,12 +829,10 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@11/main.css">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@11/three.css">
-    - <style>#pagination{margin:auto;margin-top:20px}#footer{display:none}.aside-content{width:23.8%!important}</style>
-    - <link rel="preconnect" href="https://fonts.googleapis.com">
-    - <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    - <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@13/main.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@13/three.css">
+    - <style>#pagination{margin:auto;margin-top:20px}.aside-content{width:24.8%!important}</style>
+    - <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Noto+Sans+SC&display=swap" rel="stylesheet">
   bottom:
     # - <script src="xxxx"></script>
 
@@ -844,7 +842,7 @@ inject:
 CDN:
   # main
   main_css: /css/index.css
-  jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
+  # jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
 
