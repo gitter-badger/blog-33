@@ -138,7 +138,7 @@ error_404:
 post_meta:
   page: # Home Page
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
-    date_format: date # date/relative 顯示日期還是相對日期
+    date_format: relative # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
     tags: false # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
@@ -194,7 +194,7 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: false
+  enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   url: https://github.com/AkaraChen/blog/edit/main/source/
@@ -222,7 +222,7 @@ anchor: true
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
   enable: true
-  style: flat # style: simple/flat
+  style: simple # style: simple/flat
   limit_day: 90 # When will it be shown
   position: top # position: top/bottom
   message_prev: 距离这篇文章的编写时间，已经过去了
@@ -583,7 +583,7 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: Fira Sans,Noto Sans SC,微软雅黑
+  font-family: Fira Sans,Noto Sans SC
   code-font-family:
 
 # Font settings for the site title and site subtitle
@@ -681,7 +681,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 8/1/2021
+  publish_date: 25/8/2020
 
 # Aside widget - Newest Comments
 newest_comments:

@@ -27,6 +27,10 @@
     "hexo-toc": "^1.1.0",
     "hexo-wordcount": "^6.0.1"
   },
+  "resolutions": {
+    "stylus": "0.54.8",
+    "highlight.js": "10.6.0"
+  },
   "scripts": {
     "dev": "hexo server",
     "build": "hexo generate",
