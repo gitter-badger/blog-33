@@ -2577,6 +2577,14 @@
     "hexo-pagination" "1.0.0"
     "timsort" "^0.3.0"
 
+"hexo-generator-search@^2.4.3":
+  "integrity" "sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ=="
+  "resolved" "https://registry.npmmirror.com/hexo-generator-search/-/hexo-generator-search-2.4.3.tgz"
+  "version" "2.4.3"
+  dependencies:
+    "nunjucks" "^3.0.1"
+    "utils-merge" "^1.0.0"
+
 "hexo-generator-tag@^1.0.0":
   "integrity" "sha512-JDoB2T1EncRlyGSjuAhkGxRfKkN8tq0i8tFlk9I4q2L6iYxPaUnFenhji0oxufTADC16/IchuPjmMk//dt8Msg=="
   "resolved" "https://registry.npmjs.org/hexo-generator-tag/-/hexo-generator-tag-1.0.0.tgz"
@@ -2663,6 +2671,13 @@
   dependencies:
     "pug" "^3.0.2"
 
+"hexo-renderer-pug@^3.0.0":
+  "integrity" "sha512-PmbLx6VkNv+mPLOe97OC4F8iTzTuj665dSYN7bZKArd4M/q7gb2tNs29VGuAOC50i9tvWY2f+tPQimf0GZ9Hyw=="
+  "resolved" "https://registry.npmmirror.com/hexo-renderer-pug/-/hexo-renderer-pug-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "pug" "^3.0.2"
+
 "hexo-renderer-stylus@^2.0.1":
   "integrity" "sha512-1S4AG8RtzWqVrqKIYv2AJ4UYms5SHDjkdYS7IiGwgUejL24agbTktpAbnH2cG1JWZ15SRqYN0UGB9aAoSAgvEA=="
   "resolved" "https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-2.0.1.tgz"
@@ -2684,6 +2699,14 @@
     "morgan" "^1.9.1"
     "open" "^7.0.0"
     "serve-static" "^1.14.1"
+
+"hexo-theme-butterfly@^4.1.0":
+  "integrity" "sha512-wNylZ2A3Wy0jcbrvewNn/0+zZ+cWcncM75LOwHSLxSa1T8wKvuLKF9tku7jqp6SKekrLN2q06TSy3oaa/LQgyw=="
+  "resolved" "https://registry.npmmirror.com/hexo-theme-butterfly/-/hexo-theme-butterfly-4.1.0.tgz"
+  "version" "4.1.0"
+  dependencies:
+    "hexo-renderer-pug" "^3.0.0"
+    "hexo-renderer-stylus" "^2.0.1"
 
 "hexo-toc@^1.1.0":
   "integrity" "sha512-L8JBefNO826CedkvUqozKHoomaqBgK8/iHjQGpftDRGczBu37pvxjZHIFiMVYCskAOFcCT4l5mdmcIICLVB1aw=="
@@ -3791,7 +3814,7 @@
   "resolved" "https://registry.npmmirror.com/number-is-nan/-/number-is-nan-1.0.1.tgz"
   "version" "1.0.1"
 
-"nunjucks@^3.0.0", "nunjucks@^3.2.1":
+"nunjucks@^3.0.0", "nunjucks@^3.0.1", "nunjucks@^3.2.1":
   "integrity" "sha512-psb6xjLj47+fE76JdZwskvwG4MYsQKXUtMsPh6U0YMvmyjRtKRFcxnlXGWglNybtNTNVmGdp94K62/+NjF5FDQ=="
   "resolved" "https://registry.npmjs.org/nunjucks/-/nunjucks-3.2.3.tgz"
   "version" "3.2.3"
