@@ -2677,7 +2677,7 @@ hexo-renderer-pug@^3.0.0:
 
 hexo-renderer-stylus@^2.0.1:
   version "2.0.1"
-  resolved "https://registry.npmmirror.com/hexo-renderer-stylus/-/hexo-renderer-stylus-2.0.1.tgz#c65566e97e9058a52e46c82b0c45cf561f4b94cb"
+  resolved "https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-2.0.1.tgz"
   integrity sha512-1S4AG8RtzWqVrqKIYv2AJ4UYms5SHDjkdYS7IiGwgUejL24agbTktpAbnH2cG1JWZ15SRqYN0UGB9aAoSAgvEA==
   dependencies:
     nib "^1.1.2"
