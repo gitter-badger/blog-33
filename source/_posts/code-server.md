@@ -5,6 +5,7 @@ tags:
 - Android
 - IDE
 - 华为平板
+category: 简单记录
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202000.png
 ---
 

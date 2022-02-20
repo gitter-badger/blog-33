@@ -41,7 +41,7 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202234.png
 
 9. 编辑 default.yml，把 url 改一下
 
-   ```plain
+   ```yml
    To use option 1, uncomment below line.
    
    #port: 3000    # A port that your Misskey server should listen.
@@ -51,7 +51,7 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20211108202234.png
 
 10. 构建 misskey
 
-    ```plain
+    ```bash
     apt install build-essential -y && NODE_ENV=production yarn build
     ```
 

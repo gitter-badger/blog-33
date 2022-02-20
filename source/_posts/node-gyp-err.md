@@ -29,7 +29,7 @@ verb check python checking for Python executable "python2" in the PATH
 
 然而之后的报错日志还有一大截，按理说应该就从这里停了啊？我发觉不对，接着往下翻，找到这个报错：
 
-```python
+```plain
 import sys; print "%s.%s.%s" % sys.version_info[:3];
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?

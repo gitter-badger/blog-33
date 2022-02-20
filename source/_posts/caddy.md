@@ -4,7 +4,7 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216231354.png
 date: 2021-12-12 12:34:04
 tags:
 - Caddy
-Category: 简单记录
+category: 简单记录
 ---
 
 因为实在太粗略，瞥了一眼文档就结束了，就不算在学习笔记那里了。

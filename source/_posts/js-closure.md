@@ -17,7 +17,7 @@ cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic@main/20220216225920.png
 
 ## 闭包示例
 
-```plain
+```JavaScript
 var foo = (function() {
     var int = 0
     function change(val) {
@@ -52,7 +52,7 @@ Output:
 
 这样子就实现了一定程度上的封装，整理一下伪代码，命名上我就用面向对象的术语，方便之后查笔记。
 
-```plain
+```JavaScript
 var 类名 = (function() {
 	var 私有成员变量 = 0
 	function 私有成员方法(val) {
@@ -75,7 +75,7 @@ var 类名 = (function() {
 
 众所周知，JavaScript 是支持面向对象的，那肯定也是支持封装的，那么怎么用面向对象的方法实现呢？
 
-```plain
+```JavaScript
 class Foo {
     value = 0
     change(val) {
