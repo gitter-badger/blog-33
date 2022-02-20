@@ -42,7 +42,6 @@ Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated
 
 ```js
 "resolutions": {
-    "stylus": "0.54.8",
     "highlight.js": "10.6.0"
 },
 ```
