@@ -18,7 +18,7 @@ hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -223,10 +223,10 @@ anchor: true
 noticeOutdate:
   enable: true
   style: flat # style: simple/flat
-  limit_day: 500 # When will it be shown
+  limit_day: 90 # When will it be shown
   position: top # position: top/bottom
-  message_prev: It has been
-  message_next: days since the last update, the content of the article may be outdated.
+  message_prev: 距离这篇文章的编写时间，已经过去了
+  message_next: 天，文章中的部分内容可能过时
 
 # Share System (分享功能)
 # --------------------------------------
@@ -575,7 +575,7 @@ display_mode: light
 beautify:
   enable: true
   field: site # site/post
-  title-prefix-icon: '\f0c1'
+  title-prefix-icon: '\f0e7'
   title-prefix-icon-color: '#F47466'
 
 # Global font settings
@@ -583,7 +583,7 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family:
+  font-family: Noto Sans SC
   code-font-family:
 
 # Font settings for the site title and site subtitle
@@ -829,9 +829,12 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@7/main.css">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@7/three.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@11/main.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@11/three.css">
     - <style>#pagination{margin:auto;margin-top:20px}#footer{display:none}.aside-content{width:23.8%!important}</style>
+    - <link rel="preconnect" href="https://fonts.googleapis.com">
+    - <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    - <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
   bottom:
     # - <script src="xxxx"></script>
 
