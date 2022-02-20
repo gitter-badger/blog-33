@@ -829,8 +829,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@5/main.css">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@5/three.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@7/main.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AkaraChen/hexo-css@7/three.css">
     - <style>#pagination{margin:auto;margin-top:20px}#footer{display:none}.aside-content{width:23.8%!important}</style>
   bottom:
     # - <script src="xxxx"></script>
