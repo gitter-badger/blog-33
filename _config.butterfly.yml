@@ -11,6 +11,7 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标籤: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
