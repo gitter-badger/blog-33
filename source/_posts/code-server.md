@@ -1,6 +1,7 @@
 ---
 title: 在安卓板子上安装一个现代 IDE
 date: 2021-10-30 12:34:04
+updated: 2021-10-30 12:34:04
 tags:
 - Android
 - IDE

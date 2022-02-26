@@ -1,6 +1,7 @@
 ---
 title: 今天优化了下 Hexo
 date: 2022-02-20 20:50:09
+updated: 2022-02-20 20:50:09
 tags:
 - hexo
 category: 简单记录

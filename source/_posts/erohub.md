@@ -1,6 +1,7 @@
 ---
 title: 使用 JAMStack 构建 Erohub
 date: 2021-09-16 16:54:11
+updated: 2021-09-16 16:54:11
 tags: 
 - erohub
 category: 简单记录

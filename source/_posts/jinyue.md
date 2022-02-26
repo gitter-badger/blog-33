@@ -1,6 +1,7 @@
 ---
 title: 近月少女的礼仪
 date: 2021-08-05 22:16:36
+updated: 2021-08-05 22:16:36
 tags:
 cover: https://cdn.jsdelivr.net/gh/AkaraChen/GalgamePic/20210805232950.png
 ---

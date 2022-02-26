@@ -1,6 +1,7 @@
 ---
 title: 如何配置一个舒服的终端环境
 date: 2021-11-08 18:57:12
+updated: 2021-11-08 18:57:12
 tags:
 - fish
 - powershell

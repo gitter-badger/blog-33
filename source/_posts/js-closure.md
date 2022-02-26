@@ -1,6 +1,7 @@
 ---
 title: JS 闭包特性
 date: 2022-02-16 22:52:44
+updated: 2022-02-16 22:52:44
 tags:
 - js
 - JavaScript

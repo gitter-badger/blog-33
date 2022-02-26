@@ -1,6 +1,7 @@
 ---
 title: CTF day 02
 date: 2022-01-20 22:51:46
+updated: 2022-01-20 22:51:46
 tags:
 - ctf
 category: 学习笔记

@@ -49,11 +49,8 @@ archives: true
 neat_enable: true
 neat_html:
   enable: true
-  exclude:
 neat_css:
   enable: true
 neat_js:
   enable: true
   mangle: true
-  output:
-  compress:

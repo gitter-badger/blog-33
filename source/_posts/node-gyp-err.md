@@ -1,6 +1,7 @@
 ---
 title: 记录一下 node-gyp 报错的问题
 date: 2022-02-16 23:37:38
+updated: 2022-02-16 23:37:38
 tag:
 - node-gyp
 category: 简单记录
